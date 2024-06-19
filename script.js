@@ -23,6 +23,8 @@ function logar(){
         }
         
     }
+    document.getElementById("username").value = null
+    document.getElementById("password").value = null
     alert(mensagem)
 }
 function logout(){
