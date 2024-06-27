@@ -72,7 +72,7 @@ function cadastrarLivro(){
     }
     bancoDeDados.push(usuario)
     localStorage.setItem("bancoDeDados", JSON.stringify(bancoDeDados))
-    alert("Livro cadastrado com sucesso!")
+    // alert("Livro cadastrado com sucesso!")
 
     document.getElementById("tituloLivro").value = null
     document.getElementById("autorLivro").value = null
